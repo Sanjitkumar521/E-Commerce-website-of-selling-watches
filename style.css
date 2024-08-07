@@ -1,0 +1,847 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* Resetting margin and padding for all elements */
+  
+}
+/* styling navigation bar */
+nav 
+{
+    background:#169388 0%;
+    background-image:radial-gradient(
+      /* shape for seprate color remix  */
+      circle 612px at 5.2% 51%,
+      #169388 0%,
+      #27a82e 50%,
+      #a2c132 100%
+    );
+    
+      height: 60px;
+      /* Setting height of the navigation bar */
+    
+   
+}
+/* logo text style edit */
+nav label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+   
+}
+
+
+nav{
+    flex: 1;
+    
+
+}
+/* Seprate text edit for design inside logo */
+nav label.logo span{
+    color: red;
+
+}
+
+/* Aligning and removing default list styles for navigation links */
+nav ul 
+{
+    float: right;
+    list-style-type: none;
+}
+
+/* Styling navigation list items */
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+/* Styling navigation links */
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 24px;
+    border-radius: 3px;
+}
+
+/* Styling active and hover states of links */
+a.active{
+    background: #555;
+    transition: .5s;
+}
+a:hover{
+  background: #03f5e5;
+  transition: .5s;
+}
+
+ /* Styling cursor and padding for icons */
+i{
+    cursor:pointer;
+    padding: 10px;
+}
+
+/* Setting width for navigation link images */
+nav ul li a img{
+  width: 14%;
+}
+
+
+  
+
+
+    /*--------------PART 1-----------*/
+   /* Setting margin for categories section */
+    .categories{
+  margin-top: 40px;
+}
+
+/* Aligning text in the center */
+.off{
+  text-align: center;
+}
+ /* Styling container for section */
+    .aasu{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+
+    }
+
+    /* Styling section within container */
+    .aasu-1{
+        flex-basis: 50%;
+        max-width: 300px;
+        
+        
+    }
+
+    /* Styling heading */
+    .aasu h1{
+        margin: 10px;
+        font-family: 'Gill Sans';
+        color:white;
+
+    }
+
+    .aasu .caption{
+        margin: 10px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        font-family: 'Futara';
+        /* Styling caption text */
+        /* For Width */
+        -webkit-text-stroke-width: 0.5px;
+        /* Color Fill */
+  -webkit-text-stroke-color: rgb(31, 215, 114);
+  text-shadow: 1px 1px 2px rgb(7, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(57, 138, 102);
+    }
+
+    .aasu p span{
+      color: rgb(251, 255, 0);
+      /* Styling span element within paragraph */
+      /* For width */
+      -webkit-text-stroke-width: 0.5px;
+      /* color fill */
+  -webkit-text-stroke-color: rgb(234, 219, 59);
+  text-shadow: 1px 1px 2px rgb(96, 90, 4), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(249, 242, 36);
+    }
+
+    .aasu-1 button a{
+       color: white;
+        text-decoration: none;
+        font-family: 'Lucida Sans';
+        
+    }
+    .aasu-1 button{ 
+        transition: background 0.5s;
+        margin: 40px 0;
+        border-radius: 20px;
+        color: #f2f2f2;
+        padding:8px  30px ;
+        border: none;
+         background: orange;
+        display:inline-block
+
+    }
+
+    .aasu-1 button:hover{
+        background-color: green;
+    }
+    
+    
+
+    .aasu-1{
+        max-width: 100%;
+        padding: 50px 0;
+        flex:1;
+        padding-left:20px ;
+    }
+    
+    video{
+      width: 100%;
+      margin-top: -100px;
+      height: 600px;
+      position: absolute;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+
+    
+
+    /*------------------------Part 2--------------------------*/
+
+
+   
+      
+
+
+    .asudra-1{
+        flex-basis: 30%;
+        min-width: 250px;
+        margin-bottom: 30px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .asudra-1 img{
+        width: 100%;
+    }
+
+    .small-container{
+
+       margin-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+      
+    }
+
+    .asudra-2{
+        transition: transform 0.5s;
+        flex-basis: 21%;
+        padding: 0px;
+        min-width: 200px;
+        margin-bottom: 50px;
+        
+
+    }
+
+    .asudra-2 img{
+        width: 100%;
+    }
+    .title{
+        margin-top: 60px;
+        text-align: center;
+        position: relative;
+        line-height: 60px;
+        color: red;
+        
+    }
+    marquee {
+      background: whitesmoke;
+      font-size: 30px;
+      font-weight: 500;
+      box-shadow: blue;
+      width: 100%;
+      color: black;
+      background-image:radial-gradient(
+        /* shape for seprate color remix  */
+        circle 612px at 5.2% 51%,
+        #169388 0%,
+        #27a82e 50%,
+        #a2c132 100%
+        
+         
+        );
+      
+ 
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    }
+  
+    
+
+    .title::after{
+        content:'';
+        background: #ff523b;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom:0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    h4{
+        color: #555;
+        font-weight: normal;
+
+    }
+
+    .asudra-2 p{
+        font-size: 13px;
+    }
+
+    .rating img{
+      width: 10%;
+    }
+    
+
+    .asudra-2:hover{
+        transform: translateY(-5px);
+    }
+
+   .aasu2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-content: space-around;
+   }
+
+  .aasu2 .aasu-2
+  {
+    flex-basis: 50%;
+    max-width: 600px;
+  
+  }
+  .aasu2 .aasu-3
+  {
+    flex-basis: 50%;
+    max-width: 300px;
+    
+  }
+  .aasu2 .aasu-3 img{
+    width: 150%;
+  }
+
+  .container-2{
+    padding: 20px;
+    background-color:lightgrey;
+  }
+
+  /*Testimonial*/
+  .review{
+ 
+    padding-top:50px ;
+  }
+
+  .review .asudra-2{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0,0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+  }
+
+  .review .asudra-2 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+    border-radius: 50%;
+    
+   
+  }
+
+  .review .asudra-2:hover{
+   transform: translateY(-10px);
+
+  }
+
+  
+  
+
+  .asudra-2 p{
+    font-size: 12px;
+    margin: 12;
+    font-family: Trebuchet;
+    text-align: justify center;
+  }
+
+  /*Brands*/
+  .brand{
+    margin: 100px auto;
+  }
+  .asudra-4{
+    width: 160px;
+  }
+/* Brand overlay effects */
+  .asudra-4 img{
+   width: 100%;
+   cursor: pointer;
+   filter: grayscale(100%);
+  }
+/* Brand Hover effects Orginal pic view */
+  .asudra-4 img:hover{
+    filter: grayscale(0);
+  }
+
+
+  /*footer*/
+  .footer{
+    background:#e5d257 ;
+    color: #8a8a8a;
+    font-size: 15px;
+    padding: 60px 80px 20px;
+  }
+
+
+  .footer p{
+    color: #8a8a8a;
+  }
+
+  .footer h3{
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 25px ;
+    font-family: Gill Sans;
+  }
+
+  .footer-asudra-1, .footer-asudra-2, .footer-asudra-3, .footer-asudra-4{
+    min-width: 250px;
+    margin-bottom:20px ;
+  }
+
+  .footer-asudra-1{
+    flex-basis: 30%;
+  }
+  
+  .footer-asudra-2{
+    flex: 1;
+    text-align: center;
+  }
+  .footer-asudra-2 .logo{
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: yellow;
+  }
+  .footer-asudra-2 .logo span{
+    color: red;
+  }
+
+  .footer-asudra-3, .footer-asudra-4{
+    flex-basis: 12%;
+    text-align: center;
+  }
+  .footer-asudra-3 ul{
+    list-style-type: none;
+    cursor: pointer;
+  
+  }
+
+  .app-logo {
+    margin-top: 20px;
+
+  }
+
+  .app-logo img{
+    width: 300px;
+  }
+
+  .footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 2px;
+    margin: 20px 0;
+  }
+  .footer-asudra-4 img{
+    width: 6%;
+  }
+
+  .Copyright{
+    text-align: center;
+  }
+
+
+
+
+/*Products*/
+
+.aasu{
+ justify-content: space-between;
+ margin: 100px auto 50px;
+}
+
+select{
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+select:focus{
+  outline: none;
+}
+
+.page-btn{
+  margin: 0 auto 80px;
+
+}
+
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+   text-align: center;
+  cursor: pointer;
+  line-height: 40px;
+  font-weight: 200;
+}
+
+.page-btn span:hover{
+ background-color: orangered;
+ color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* offer banner */
+
+/* Discount-container-styling */
+.discount-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #023047;
+  background-image: radial-gradient(
+    /* shape for seprate color remix  */
+    circle 610px at 5.2% 51%,
+    #169388 0%,
+    #27a82e 50%,
+    #a2c132 100%
+  );
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding: 8px 0;
+}
+/* Discount container- heading Styling */
+.discount-container .discount-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+/* discount container-subheading styling */
+.discount-container .discount-subheading {
+  font-size: 16px;
+}
+
+/* discount container-countdown timer styling */
+.discount-container .countdown-timer {
+  display: flex;
+  gap: 16px;
+}
+/* countdown timer-group styling */
+.countdown-timer .group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+/* countdown timer-value styling */
+.countdown-timer .value {
+  background: #fff;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  width: 35px;
+  text-align: center;
+  border-radius: 5px;
+}
+/* countdowntmer unit styling */
+.countdown-timer .unit {
+  font-size: 13px;
+}
+/* discount container-discount btn */
+.discount-container .discount-btn {
+  padding: 8px 24px;
+  background: rgb(99, 251, 215);
+  background-image: linear-gradient(
+    68deg,
+    rgb(99, 251, 215) 0%,
+    rgb(5, 222, 250) 100%
+  );
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 400ms ease;
+}
+/* discount container-btn hover */
+.discount-container .discount-btn:hover {
+  transform: scale(1.03);
+}
+
+
+
+
+
+
+/* Product Page */
+/* styling of products page */
+
+/* main container */
+.container{
+  margin-top: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+/* cointainer for image and details of image */
+.products{
+  width: 32%;
+  margin-top: 15px;
+  box-shadow: 0px 0px 25px 4px #EAEAEA;
+  padding: 10px;
+}
+/* hover effects on products */
+.products:hover{
+  background-color: whitesmoke;
+}
+ .productprice {
+  padding: 15px;
+  margin-top: 0px;
+
+}
+.lastprice{
+  margin-left:100px ;
+ 
+}
+/* styling image of products */
+.products .image img{
+  width: 50%;
+  height: auto;
+}
+/* heading styling */
+.items{
+
+        margin-top: 60px;
+        text-align: center;
+        position: relative;
+        line-height: 60px;
+        color: red;
+        
+
+}
+
+.items::after{
+  content:'';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* styling row  */
+.items-1 {
+display: flex;
+justify-content: space-between;
+}
+/* font styling for text  */
+.items h2{
+  font-family: cursive;
+}
+/* rating image styling */
+.rating img{
+  width: 5%;
+  margin: 0px;
+}
+/* image styling */
+.image{
+  height: 200px;
+  text-align: center;
+}
+/* styling price container */
+.pricebox{
+  display: flex;
+  margin: 0px;
+  
+}
+/* styling a quickview botton for quick view product show up */
+.pricebox button{
+  width: 127px;
+  height: 38px;
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 16px;
+  border-color: none;
+  /* fOR ALINGING QUICK VIEW BTN */
+  margin-left: 100px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+/* styling text on center of quickview */
+.quick{
+  text-align: center;
+  
+ 
+}
+/* styling qucik view image  */
+.model{
+  padding: 50px;
+  top: -10px;
+  position: fixed;
+  z-index: 99;
+  display: none;
+  background-color: whitesmoke; 
+}
+/* using box shadow for maincontainer */
+.mainbox{
+  background-color: white;
+  box-shadow: 0px 0px 25px 4px #EAEAEA;
+}
+/* displaying flex for display on row box item */
+.box{
+  display: flex;
+}
+/* quick view container details styling */
+.productdetail{
+  width: 250px;
+}
+
+
+
+
+
+
+/* Quick view  page styling css */
+
+
+/* main div styling */
+.mainbox{
+  max-width: 100%;
+display: flex;
+}
+
+/* image styling */
+.mainbox .imagee img{
+display: flex;
+flex-direction: column;
+max-height: 100%;
+max-width:100%;
+}
+/* image heading styling */
+.product-tittle{
+  font-size: 1rem;
+
+}
+/* rating star image  styling */
+.star img{
+width:17px;
+margin: -7px;
+
+}
+/* button styling */
+.btn{
+  background-color:rgb(204, 26, 67);
+  border-radius: 20px;  
+}
+/* button paragraph styling */
+.btn p{
+  font-size: medium;
+  color: aliceblue;
+  margin: 5px;
+  
+}
+/* hover effect in button */
+.btn p:hover{
+  cursor: pointer;
+}
+/* list styling */
+ ul{
+
+list-style-type:none;
+line-height:1.5 ;
+font-size: 12px;
+/* styling image under list */
+}
+ul  img{
+  height: 20px;
+  width: 20px;
+  margin: -4px;
+  padding: 3px;
+}
+.purchaseinfo
+{
+  font-size: 18px;
+  
+}
+/* input type styling */
+.purchaseinfo input{
+border: 2px solid black;
+border-radius: 30px;
+margin: 27px;
+}
+/* tittle class styling */
+.product-tittle{
+  font-size: 20px;
+}
+/* styling of anchor tag */
+.product-link{
+  background-color:rgb(229 33 19 / 91%);
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+}
+/* styling input  */
+.purchaseinfo input{
+  height: 30px;
+  width: 90px;
+  text-align: center;
+}
+/* styling span */
+strong,span{
+  margin: 3px;
+}
+/* price styling */
+.price{
+  margin: 12px;
+ 
+}
+
+body {
+  margin-top: 76px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
